@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Photo Gallery</title>
+	<link rel="stylesheet" href="style.css">
+	<script src = "index.js"></script>
+</head>
+<body onload="initialize()">
+	
+	<div id = "image">
+		Hover over an image below to display here.
+	</div>
+	
+	<img class = "preview" tabindex="0" alt = "Styling with a Bandana" src = "https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/bacon.jpg" onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus="upDate(this)" onblur="unDo()">
+	
+	<img class = "preview" tabindex="1" alt = "IN VACATIONS" src = "./Imagenes/imagen_de_mi_en_vacaciones.jpg" onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus="upDate(this)" onblur="unDo()">
+	
+	<img class = "preview" tabindex="2" src = "./Imagenes/ME _MILITARY.jpg" alt = "ME MILITARY" onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus="upDate(this)" onblur="unDo()">
+
+	<img class = "preview" tabindex="3" src = "./Imagenes/imagen_con_una_amiga.jpg" alt = "MY GIRL FRIEND" onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus="upDate(this)" onblur="unDo()">
+
+	<img class = "preview" tabindex="4" src = "./Imagenes/MY_FRIEND.jpg" alt = "MY BOY FRIEND IN NAVIDAD" onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus="upDate(this)" onblur="unDo()">
+
+	<img class = "preview" tabindex="5" src = "./Imagenes/Imagen_en_familia.jpg" alt = "MY FAMILY" onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus="upDate(this)" onblur="unDo()">
+
+</body>
+</html>
